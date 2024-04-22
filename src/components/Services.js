@@ -39,8 +39,8 @@ const Services = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.5 }}
             className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
-            <h2 className='h2 text-accent mb-6'>What I do</h2>
-            <h3 className='h3 max-w-[455px] mb-16'>I'm a Freelance Front-end Developer with over 2 years of experience. </h3>
+            <h2 className='h2 text-accent mb-6'>O que eu faço:</h2>
+            <h3 className='h3 max-w-[455px] mb-16'>Faço Designer para social media, ui/ux design, Landing Pages </h3>
           </motion.div>
           <button></button>
 

@@ -24,14 +24,14 @@ const Slider = () => {
                     whileInView={"show"}
                     viewport={{ once: false, amount: 0.5 }}
                     className="flex flex-col gap-3">
-                    <h2 className=" text-[50px] font-semibold h2 text-accent mb-6">
-                        My Work.
-                        <p className="text-[16px] max-w-[400px] text-gray-200 md:text-gray-400 mt-6">
+                    <h2 className=" text-[36px] font-semibold font-primary text-accent mb-6">
+                        Meus Trabalhos.
+                        <p className="text-[16px] max-w-[400px] text-gray-200 md:text-gray-400 mt-6 font-secondary text-center">
                             Confira meus ultimos trabalhos!
                         </p>
                     </h2>
                 </motion.div>
-                <div className="w-[70%] md:w-[70%]">
+                <div className="w-[100%] h-auto md:w-[70%]">
                     <Swiper
                         breakpoints={{
                             320: {

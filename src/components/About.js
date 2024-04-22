@@ -22,7 +22,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-screen bg-top'>
+            className='flex-1 bg-about bg-contain bg-no-repeat lg:h-[640px] h-auto mix-blend-screen bg-top'>
           </motion.div>
           {/** text */}
           <motion.div
@@ -31,8 +31,8 @@ const About = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1'>
-            <h2 className='h2 text-accent'>About Me</h2>
-            <h3 className='h3 mb-4'>I'm a Freelance Front-end Developer with over 2 years of experience. </h3>
+            <h2 className='h2 text-accent'>Sobre mim</h2>
+            <h3 className='h3 mb-4'>Sou Desenvolvedor, Designer e Social Media. Freelancer com mais de 2 anos de experiência. </h3>
             <p className='mb-6'>Felipe Neneu é designer, developer e especialista em marketing digital, e cursa Analise e desenvolvimento de sistemas.
               Trabalha com redes sociais, produção de conteúdo, mídia paga e performance desde 2014,
               onde começou sua carreira na área de criação de uma agência.

@@ -35,8 +35,8 @@ const Banner = () => {
               variants={fadeIn('up', 0.4)}
               initial="hidden" whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'>
-              <span className='mr-2 text-white'> I am a</span>
+              className='mb-6 text-[36px] lg:text-[50px] font-secondary font-semibold uppercase leading-[1]'>
+              <span className='mr-2 text-white'> Eu sou um</span>
               <TypeAnimation sequence={[
                 'Developer',
                 2000,
@@ -64,8 +64,8 @@ const Banner = () => {
               initial="hidden" whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-              <button className='btn btn-lg'>Contact Me</button>
-              <a href='#' className='text-gradient btn-link'>
+              <button to='https://w.app/vTWJ1z' className='btn btn-lg' >Contate-me</button>
+              <a href='https://w.app/vTWJ1z' className='text-gradient btn-link'>
                 My Portfolio
               </a>
             </motion.div>
