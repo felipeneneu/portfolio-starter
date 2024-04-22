@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.45193d36.css",
+    "main.js": "/static/js/main.8500b889.js",
+    "static/media/eu.png": "/static/media/eu.6ef06fab54bdd624aa58.png",
+    "static/media/avatar2.png": "/static/media/avatar2.23294716f5dd7a6f0274.png",
+    "static/media/site-bg.png": "/static/media/site-bg.b02a7f485604f22f4f7d.png",
+    "static/media/SpaceCity4.jpeg": "/static/media/SpaceCity4.19a2daa8670e754c2594.jpeg",
+    "static/media/SpaceCity2.jpeg": "/static/media/SpaceCity2.31b6c267a591f0420be8.jpeg",
+    "static/media/SpaceCity3.jpeg": "/static/media/SpaceCity3.d8806c273afae2449d4a.jpeg",
+    "static/media/SpaceCity1.jpg": "/static/media/SpaceCity1.14a2dcbf80e8af540f12.jpg",
+    "static/media/services.png": "/static/media/services.e60ef95ffea905d989c5.png",
+    "static/media/logofn2.svg": "/static/media/logofn2.39e3cb4532ba74d5935ae627eb0d3034.svg",
+    "index.html": "/index.html",
+    "main.45193d36.css.map": "/static/css/main.45193d36.css.map",
+    "main.8500b889.js.map": "/static/js/main.8500b889.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45193d36.css",
+    "static/js/main.8500b889.js"
+  ]
+}

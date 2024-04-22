@@ -20,7 +20,7 @@ const App = () => {
       <Slider />
       <Contact />
 
-      <div>Todos os direitos reservados</div>
+      <div></div>
     </div>
   );
 };
