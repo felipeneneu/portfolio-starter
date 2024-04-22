@@ -5,8 +5,9 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
 import Services from './components/Services';
-import Work from './components/Work';
+import Slider from './components/Slider';
 import Contact from './components/Contact';
+
 
 const App = () => {
   return (
@@ -16,9 +17,10 @@ const App = () => {
       <Nav />
       <About />
       <Services />
-      <Work />
+      <Slider />
       <Contact />
-      <div className='h-full'></div>
+
+      <div>Todos os direitos reservados</div>
     </div>
   );
 };
