@@ -13,7 +13,7 @@ const Header = () => {
             <img src={Logo} alt='' className='lg:w-[300px] sm:w-[200px] w-[180px] h-auto' />
           </a>
           {/*button*/}
-          <button className='btn btn-sm'>Work with me</button>
+          <button className='btn btn-sm'>Trabalhe comigo</button>
         </div>
       </div>
     </header>
