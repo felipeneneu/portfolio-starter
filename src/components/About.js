@@ -33,10 +33,10 @@ const About = () => {
             className='flex-1'>
             <h2 className='h2 text-accent'>About Me</h2>
             <h3 className='h3 mb-4'>I'm a Freelance Front-end Developer with over 2 years of experience. </h3>
-            <p className='mb-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse accumsan dignissim consectetur. Ut imperdiet non eros sodales consectetur.
-              Aliquam iaculis molestie lacinia. In quis convallis lorem. Donec at tristique quam, nec tincidunt eros. Suspendisse eu elit ac tellus tincidunt bibendum.
-              Vestibulum posuere, est in euismod facilisis, metus ligula congue ligula, id auctor enim enim at velit. Maecenas eu consectetur dui. Aenean ac faucibus risus.
-              Mauris felis dolor, suscipit eget velit sed, porttitor dapibus ipsum.</p>
+            <p className='mb-6'>Felipe Neneu é designer, developer e especialista em marketing digital, e cursa Analise e desenvolvimento de sistemas.
+              Trabalha com redes sociais, produção de conteúdo, mídia paga e performance desde 2014,
+              onde começou sua carreira na área de criação de uma agência.
+              Hoje é estou estudando programação para ser o melhor marketeiro digital.</p>
             {/** stats */}
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>

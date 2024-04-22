@@ -42,7 +42,7 @@ const Banner = () => {
                 2000,
                 'Designer',
                 2000,
-                'Social Midia',
+                'Social Medias',
                 2000,
               ]}
                 speed={50}
