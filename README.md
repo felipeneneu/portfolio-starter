@@ -1,14 +1,12 @@
-## Site Pessoal
-
 # Minha Landing Page - v. 1.00 - Em Reforma
 
 <h1>
 
+<img src="./src/assets/logofn2.svg" height="150" >
+
 
 </h1>
-![alt text](image-1.png)
-![alt text](image-2.png)
-
+<img src="./image1.png"> <img src="./image-1.png">
 
 
 ## Sobre
@@ -16,7 +14,7 @@
 
 <p>Meu portifolio e landing page.</p>
 
-![alt text](image-10.png)
+![alt text](image-2.png)
 
 ## ✨ Features
  - Motion 
