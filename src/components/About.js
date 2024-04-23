@@ -22,7 +22,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 bg-about bg-contain bg-no-repeat lg:h-[640px] h-auto mix-blend-screen bg-top'>
+            className='flex-1 bg-about bg-contain bg-no-repeat sm:w-auto sm:h-max lg:h-[640px]  mix-blend-screen bg-top'>
           </motion.div>
           {/** text */}
           <motion.div
@@ -38,13 +38,13 @@ const About = () => {
               onde começou sua carreira na área de criação de uma agência.
               Hoje é estou estudando programação para ser o melhor marketeiro digital.</p>
             {/** stats */}
-            <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
+            <div className='flex gap-x-6 lg:gap-x-10 mt-12 mb-12'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={13} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={2} duration={3} /> : null}
                 </div>
-                <div className='font-primary text-sm tracking-[2px]' >Years of <br />
-                  Experience</div>
+                <div className='font-primary text-sm tracking-[2px]' >Anos de <br />
+                  Experiencia</div>
               </div>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2'>

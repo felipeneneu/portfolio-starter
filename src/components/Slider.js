@@ -10,7 +10,7 @@ import 'swiper/css/pagination'
 import 'swiper/css/free-mode'
 
 import { FreeMode, Pagination } from "swiper/modules";
-import { PurpleImages } from "../imagesdoslider";
+import { PurpleImages, OrangeImages } from "../imagesdoslider";
 
 import { RxArrowRight } from 'react-icons/rx'
 
@@ -48,7 +48,7 @@ const Slider = () => {
                             },
                             992: {
                                 slidesPerView: 1,
-                                spaceBetween: 15
+                                spaceBetween: 12
                             }
                         }}
                         freeMode={true}
@@ -82,7 +82,7 @@ const Slider = () => {
                         </SwiperSlide>
                         <SwiperSlide className='mb-14'>
                             <div className="grid grid-cols-2 gap-4  px-10">
-                                {PurpleImages.map((image) => (
+                                {OrangeImages.map((image) => (
                                     <div className="relative group" key={image.src}>
 
                                         <img
@@ -92,7 +92,7 @@ const Slider = () => {
                                         />
                                         <div className="cursor-pointer absolute inset-0 bg-gradient-to-r from-purple-800 via-pink-500 to-purple-800 opacity-0 group-hover:opacity-70 rounded-md">
                                             <div className="absolute text-white inset-0 flex items-center justify-center cursor-pointer opacity-0 group-hover:opacity-100 transition-all">
-                                                View Project
+                                                <a target='_blank' href="https://www.behance.net/felipenight" >View Project</a>
                                                 <RxArrowRight className="ml-2 w-[24px] h-[24px]" />
                                             </div>
 
